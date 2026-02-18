@@ -3,7 +3,7 @@
 version = 4
 
 [[package]]
-name = "core"
+name = "cpu_ai_net_core"
 version = "0.1.0"
 
 [[package]]
@@ -17,6 +17,9 @@ version = "0.1.0"
 [[package]]
 name = "orchestrator"
 version = "0.1.0"
+dependencies = [
+ "cpu_ai_net_core",
+]
 
 [[package]]
 name = "persona"
