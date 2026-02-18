@@ -1,0 +1,9 @@
+[workspace]
+members = [
+  "core",
+  "orchestrator",
+  "persona",
+  "node_hypo",
+  "node_refute"
+]
+resolver = "2"
